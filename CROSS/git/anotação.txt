@@ -1,0 +1,38 @@
+================ GIT e GITHUB ================
+
+Terminal - Instalar o gitbash
+Gráfico - Instalar gitKraken
+
+*Outras instalações:
+    xammp e Mysql
+
+Comandos Passo a Passo
+
+    > git init //cria o repósitorio
+
+    > git config user.name "nomeUsuario" //define o usuário
+        > git config user.name => traz o nome cadastrado
+            > Caso queira fazer de maneira global na máquina:
+                > gitconfig user.name --global "nomeUsuario" //Configuração global, não precisa mais didigitar
+    
+    > git config user.email "emailUsuario" //define o email
+        > A mesma anotação para user.name
+    
+    > git remote add origin http://... //aponta ou conecta o repósitorio remoto
+        > git remote -v //Confirma a conexão
+
+    > git add . //adiciona todas as modificações
+    
+    > git commit -m "titulo do commit" //comita(salva) as modificações feitas
+        fazer commit em tempos importantes
+    > git push origin master //envia as modificações ao repósitório remoto
+
+Documentação
+    http://dev.to/git  - http://ohshitgit.com   - http://git-scm.com
+
+GitHub
+    Lugar na nuvem onde se hospedam projetos de programação
+    Repositórios Remotos e Repositórios locais
+
+
+
