@@ -22,9 +22,11 @@ Comandos Passo a Passo
         > git remote -v //Confirma a conexão
 
     > git add . //adiciona todas as modificações
+        > git status verifica quais arquivos/pastas estão rastreados/prontos
     
     > git commit -m "titulo do commit" //comita(salva) as modificações feitas
         fazer commit em tempos importantes
+
     > git push origin master //envia as modificações ao repósitório remoto
 
 Documentação
