@@ -8,6 +8,7 @@ Gráfico - Instalar gitKraken
 
 Comandos Passo a Passo
 
+SUBINDO ARQUIVOS
     > git init //cria o repósitorio
 
     > git config user.name "nomeUsuario" //define o usuário
@@ -28,6 +29,12 @@ Comandos Passo a Passo
         fazer commit em tempos importantes
 
     > git push origin master //envia as modificações ao repósitório remoto
+
+BAIXANDO ARQUIVOS DO REP REMOTO PARA A MÁQUINA
+    > git clone "caminho do repósitorio" //Isso quando não tiver na máquina
+    //Quando o repósitorio já foi clonado, precisamos apenas atualiza-lo:
+    > git pull origin master
+
 
 Documentação
     http://dev.to/git  - http://ohshitgit.com   - http://git-scm.com
