@@ -40,8 +40,8 @@ Documentação
     http://dev.to/git  - http://ohshitgit.com   - http://git-scm.com
 
 GitHub
-    Lugar na nuvem onde se hospedam projetos de programação
-    Repositórios Remotos e Repositórios locais
+    > Lugar na nuvem onde se hospedam projetos de programação
+    > Repositórios Remotos e Repositórios locais
 
 
 
