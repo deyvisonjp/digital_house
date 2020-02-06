@@ -9,7 +9,7 @@ Gráfico - Instalar gitKraken
 Comandos Passo a Passo
 
 SUBINDO ARQUIVOS
-    > git init //cria o repósitorio
+    > git init //cria o repositório
 
     > git config user.name "nomeUsuario" //define o usuário
         > git config user.name => traz o nome cadastrado
@@ -19,16 +19,17 @@ SUBINDO ARQUIVOS
     > git config user.email "emailUsuario" //define o email
         > A mesma anotação para user.name
     
-    > git remote add origin http://... //aponta ou conecta o repósitorio remoto
+    > git remote add origin http://... //aponta ou conecta o repositório remoto
         > git remote -v //Confirma a conexão
 
     > git add . //adiciona todas as modificações
-        > git status verifica quais arquivos/pastas estão rastreados/prontos
+        > git status -> verifica quais arquivos/pastas estão rastreados/prontos
+        > git log -> Traz informações sobre os commits já realizados
     
     > git commit -m "titulo do commit" //comita(salva) as modificações feitas
         fazer commit em tempos importantes
 
-    > git push origin master //envia as modificações ao repósitório remoto
+    > git push origin master //envia as modificações ao repositório remoto
 
 BAIXANDO ARQUIVOS DO REP REMOTO PARA A MÁQUINA
     > git clone "caminho do repósitorio" //Isso quando não tiver na máquina
