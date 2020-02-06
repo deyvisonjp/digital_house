@@ -36,6 +36,9 @@ BAIXANDO ARQUIVOS DO REP REMOTO PARA A MÁQUINA
     //Quando o repósitorio já foi clonado, precisamos apenas atualiza-lo:
     > git pull origin master
 
+CRIANDO/MUDANDO A BRANCH
+    > git branch nome_da-branch //Cria a nova branch
+    > git checkout nome_da-branch //Muda de branch
 
 Documentação
     http://dev.to/git  - http://ohshitgit.com   - http://git-scm.com
