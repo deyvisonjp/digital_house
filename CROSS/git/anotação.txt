@@ -3,11 +3,8 @@
 Terminal - Instalar o gitbash
 Gráfico - Instalar gitKraken
 
-*Outras instalações:
-    xammp e Mysql
-
 Comandos Passo a Passo
-
+_____________________________________________________________________________________________________
 SUBINDO ARQUIVOS
     > git init //cria o repositório
 
@@ -31,18 +28,42 @@ SUBINDO ARQUIVOS
 
     > git push origin master //envia as modificações ao repositório remoto
 
+_____________________________________________________________________________________________________
 BAIXANDO ARQUIVOS DO REP REMOTO PARA A MÁQUINA
     > git clone "caminho do repósitorio" //Isso quando não tiver na máquina
-    //Quando o repósitorio já foi clonado, precisamos apenas atualiza-lo:
+        //Quando o repósitorio já foi clonado, precisamos apenas atualiza-lo:
     > git pull origin master
+        //Atualiza informações criadas no repositório remoto 
+        //Sempre fazer um git pull antes de iniciar os trabalhos no rep. local
 
+_____________________________________________________________________________________________________
+BRANCHES
+    > git branch "nome_da_nova_branch"
+        //Cria uma nova branch
+    > git checkout "nome_da_nova_branch"
+        //Muda para nova branch
+    > git log --all / git log --graph
+        //Histórico de todos os commit nas branches      
+
+
+_____________________________________________________________________________________________________
+Cooperar em outros projetos no GitHub
+    /* Fazer um fork do projeto github compartilhado
+     * Add em git pessoal
+     * fazer as transações necessárias na maquina
+     * Fazer um pull request no github e enviar o projeto para o usuario origem (projeto inicial)
+     * O detentor do projeto analisa e aceita/recusa a noca request
+
+_____________________________________________________________________________________________________
 CRIANDO/MUDANDO A BRANCH
     > git branch nome_da-branch //Cria a nova branch
     > git checkout nome_da-branch //Muda de branch
 
+_____________________________________________________________________________________________________
 Documentação
     http://dev.to/git  - http://ohshitgit.com   - http://git-scm.com
 
+_____________________________________________________________________________________________________
 GitHub
     > Lugar na nuvem onde se hospedam projetos de programação
     > Repositórios Remotos e Repositórios locais
